@@ -20,6 +20,6 @@ sequenceDiagram
 
     browser->>server: POST { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
 
-Note right of browser: The webpage gets refreshed and notes get drawn again.
+Note right of browser: The webpage gets refreshed and the notes get drawn again.
 
 ```
