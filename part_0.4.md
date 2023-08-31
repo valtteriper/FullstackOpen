@@ -15,7 +15,12 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
     activate server
-    server-->>browser: [{}...]
+    server-->>browser: JavaScript File
+    deactivate server
+
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+    activate server
+    server-->>browser: Array of Notes
     deactivate server
 
     browser->>server: POST { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
