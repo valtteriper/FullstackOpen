@@ -13,9 +13,14 @@ sequenceDiagram
     server-->>browser: CSS File
     deactivate server
 
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
     activate server
     server-->>browser: JavaScript File
+    deactivate server
+
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+    activate server
+    server-->>browser: Array of Notes
     deactivate server
 
 Note right of browser: The webpage gets refreshed and the notes get drawn again.
