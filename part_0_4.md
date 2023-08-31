@@ -5,6 +5,6 @@ sequenceDiagram
     
     browser->>server: GET https://studies.cs.helsinki.fi/favicon.ico
     activate server
-    server-->>browser: HTML document
+    server-->>browser: array
     deactivate server
 ```
