@@ -20,6 +20,6 @@ sequenceDiagram
 
     browser->>server: POST { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
 
-Note right of browser: JavaScript adds the new note gets added to the list.
+Note right of browser: JavaScript adds the new note to the list.
 
 ```
