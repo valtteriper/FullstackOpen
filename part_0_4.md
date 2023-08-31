@@ -18,6 +18,8 @@ sequenceDiagram
     server-->>browser: JavaScript File
     deactivate server
 
+    activate server
     browser->>server: POST { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
+    deactivate server
 
 ```
