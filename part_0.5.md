@@ -23,6 +23,4 @@ sequenceDiagram
     server-->>browser: Array of Notes
     deactivate server
 
-Note right of browser: The webpage gets refreshed and the notes get drawn again.
-
 ```
