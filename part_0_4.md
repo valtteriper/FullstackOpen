@@ -20,7 +20,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/favicon.ico
     activate server
-    server-->>browser: { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
+    browser-->>server: { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
     deactivate server
 
 ```
