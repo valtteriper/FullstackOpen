@@ -19,7 +19,6 @@ sequenceDiagram
     deactivate server
 
     browser->>server: POST { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
-    activate server
     deactive server
 
 ```
