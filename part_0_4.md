@@ -18,9 +18,9 @@ sequenceDiagram
     server-->>browser: JavaScript File
     deactivate server
 
-    browser->>server: POST https://studies.cs.helsinki.fi/favicon.ico
+    browser->>server: POST { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
     activate server
-    browser-->>server: { content: "assdaasddsa", date: "2023-08-31T07:04:40.906Z" }
+    server-->>browser: HTML Document
     deactivate server
 
 ```
